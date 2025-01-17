@@ -1,0 +1,13 @@
+# Environment files
+.env
+.env.*.local
+
+# Docker volumes
+db-data/
+
+# IDE files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
