@@ -7,6 +7,7 @@ RUN apt-get update && apt-get install -y \
     zip \
     unzip \
     libzip-dev \
+    default-mysql-client \
     && docker-php-ext-install zip pdo pdo_mysql mysqli
 
 # Composerのインストール
